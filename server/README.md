@@ -1,6 +1,9 @@
 Server
 ======
 
+Bored by MAMP? Can't find your htdocs directory? Love Hacker-Style? To tired to setup a project for tiny experiments?
+ - Try Server 
+
 a simple server for OS X that serves files from a directory
 
 Usage
