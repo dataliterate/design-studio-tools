@@ -17,6 +17,7 @@ Imagine you have a folder called "alpha-project" on your desktop. Inside this fo
 
 via command line
 ```
+mkdir ~/Library/Services/
 curl https://raw.github.com/preciousforever/design-studio-tools/master/create-pdf/Create%20Pdf.workflow.zip > ~/Library/Services/Create\ Pdf.workflow.zip
 open ~/Library/Services/Create\ Pdf.workflow.zip
 rm ~/Library/Services/Create\ Pdf.workflow.zip
