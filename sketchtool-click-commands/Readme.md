@@ -1,16 +1,23 @@
 A set of clickable commands to work with [sketchtool](http://bohemiancoding.com/sketch/tool/).
 
 ## Prerequisites
-skechtool installed on your system and config in your PATH variable
+sketchtool installed on your system and config in your PATH variable
 
-Test:
+Install sketchtool like so:
+
+- Download [sketchtool](http://bohemiancoding.com/sketch/tool/).
+- in Terminal: `cd ~/Downloads/sketchtool`
+- then `sudo cp -r sketch* /usr/local/bin`
+
+To test if sketchtool is installed correctly, type in Terminal:
 ```
-which sketchtool
+cd ~/
+sketchtool help
 ```
 
 Place the command file in the folder where your sketch files live.
 
-## export-all.command
+## export-all-artboards.command
 
 exports all artboards of all sketch files in the folder
 
@@ -23,3 +30,7 @@ a artboard named iphone-main-index will be exported to the following folder stru
 -- main
 --- index.png
 ```
+
+## export-all-layers.command
+
+exports all (exportable) layers of all sketch files in the folder.
