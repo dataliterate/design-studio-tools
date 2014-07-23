@@ -21,7 +21,7 @@ Place the *.command files in the folder where your sketch files live and double 
 
 Exports all Artboards of all Sketch files in the folder.
 
-_Please note_: in Sketch, you can use Artboard names such as 'iphone/main/index', which will export as the following folder structure:
+*Please note*: in Sketch, you can use Artboard names such as 'iphone/main/index', which will export as the following folder structure:
 
 ```
 - iphone
@@ -35,6 +35,6 @@ However, when using SketchTool to export, the '/' [slash] get converted to '-' [
 
 In Sketch, you can set a Layer Group to be 'exportable'. All exportable Layers of all Sketch files in the folder are being exported with this command (following the same naming conventions as mentioned above).
 
-_Please note_: we usually set certain Layer Groups in Sketch to be exportable – this is pretty powerful, because it will always export the right bounds of the Layer Group and the names used to organize your Sketch files are the ones used for export, too. To be able to export the Layer Groups as PNGs into a folder with the parent Artboard's name, we created a [Sketch Plugin](https://github.com/preciousforever/sketch-artboard-name-to-layer-name). It prepends the Artboard name (= a path) to all Layers (and there's another Plugin to remove it if you're reworking the structure of your file).
+*Please note*: we usually set certain Layer Groups in Sketch to be exportable – this is pretty powerful, because it will always export the right bounds of the Layer Group and the names used to organize your Sketch files are the ones used for export, too. To be able to export the Layer Groups as PNGs into a folder with the parent Artboard's name, we created a [Sketch Plugin](https://github.com/preciousforever/sketch-artboard-name-to-layer-name). It prepends the Artboard name (= a path) to all Layers (and there's another Plugin to remove it if you're reworking the structure of your file).
 
 
