@@ -1,11 +1,18 @@
 A set of clickable commands to work with [sketchtool](http://bohemiancoding.com/sketch/tool/).
 
 ## Prerequisites
-skechtool installed on your system and config in your PATH variable
+sketchtool installed on your system and config in your PATH variable
 
-Test:
+Install sketchtool like so:
+
+- Download [sketchtool](http://bohemiancoding.com/sketch/tool/).
+- in Terminal: `cd ~/Downloads/sketchtool`
+- then `sudo cp -r sketch* /usr/local/bin`
+
+To test if sketchtool is installed correctly, type in Terminal:
 ```
-which sketchtool
+cd ~/
+sketchtool help
 ```
 
 Place the command file in the folder where your sketch files live.
