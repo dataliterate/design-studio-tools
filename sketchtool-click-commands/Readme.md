@@ -17,7 +17,7 @@ sketchtool help
 
 Place the command file in the folder where your sketch files live.
 
-## export-all.command
+## export-all-artboards.command
 
 exports all artboards of all sketch files in the folder
 
@@ -30,3 +30,7 @@ a artboard named iphone-main-index will be exported to the following folder stru
 -- main
 --- index.png
 ```
+
+## export-all-layers.command
+
+exports all (exportable) layers of all sketch files in the folder.
