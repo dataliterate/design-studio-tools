@@ -1,6 +1,8 @@
+### SketchTool Click Commands
+
 A set of clickable commands to work with [SketchTool](http://bohemiancoding.com/sketch/tool/) for [Sketch](http://bohemiancoding.com/sketch/).
 
-## Prerequisites
+#### Prerequisites
 SketchTool installed on your system and config in your PATH variable
 
 Install SketchTool like this:
@@ -17,7 +19,7 @@ sketchtool help
 
 Place the *.command files in the folder where your sketch files live and double click to execute them.
 
-## export-all-artboards.command
+#### export-all-artboards.command
 
 Exports all Artboards of all Sketch files in the folder.
 
@@ -31,7 +33,7 @@ Exports all Artboards of all Sketch files in the folder.
 
 However, when using SketchTool to export, the '/' [slash] get converted to '-' [dash], thus leading to a flat "iphone-main-index.png" file. The *click commands* in this repository take care of this and convert these files back into the above mentioned meaningful folder structure.
 
-## export-all-layers.command
+#### export-all-layers.command
 
 In Sketch, you can set a Layer Group to be 'exportable'. All exportable Layers of all Sketch files in the folder are being exported with this command (following the same naming conventions as mentioned above).
 
