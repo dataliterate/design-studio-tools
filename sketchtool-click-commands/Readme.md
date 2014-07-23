@@ -29,7 +29,7 @@ Exports all Artboards of all Sketch files in the folder.
 --- index.png
 ```
 
-However, when using SketchTool to export, the '/' [slash] get converted to '-' [dash], thus leading to a flat "iphone-main-index.png" file. These click commands take care of this and convert these files back into the above mentioned meaningful folder structure.
+However, when using SketchTool to export, the '/' [slash] get converted to '-' [dash], thus leading to a flat "iphone-main-index.png" file. The *click commands* in this repository take care of this and convert these files back into the above mentioned meaningful folder structure.
 
 ## export-all-layers.command
 
